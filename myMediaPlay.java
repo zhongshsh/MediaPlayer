@@ -236,7 +236,7 @@ public class myMediaPlay extends Application {
 
         MenuItem au = new MenuItem("作者信息");
         au.setOnAction(e->{
-            ta = new TextArea("作者：钟珊珊\n学号：18372066\n班级：18信管B班\n邮箱：zhongshsh5@mail2.sysu.edu.cn");
+            ta = new TextArea("作者：zhongshsh\n学号：12345678\n班级：XX级XX班\n邮箱：zhongshsh5@mail2.sysu.edu.cn");
             Stage tmpS = new Stage();
             tmpS.getIcons().add(backGround);
             BorderPane tmpBP = new BorderPane();
